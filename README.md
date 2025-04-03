@@ -1,7 +1,7 @@
 # Desafio Vinteum - Bitcoin Regtest com RPC
 
 Este repositório demonstra o uso do Bitcoin Core em modo `regtest` rodando dentro de um container Docker, com interações via 
-chamadas RPC usando Python. A proposta faz parte do desafio prático do seminário da [Vinteum](https://vinteum.io/).
+chamadas RPC usando Python. A proposta faz parte do desafio prático do seminário da [Vinteum](https://vinteum.org/).
 
 ## Pré-requisitos
 
@@ -25,4 +25,3 @@ docker run -d --name bitcoind-regtest \
   -rpcuser=bitcoin \
   -rpcpassword=local321 \
   -fallbackfee=0.0002
-
